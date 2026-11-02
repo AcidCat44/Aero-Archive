@@ -8,7 +8,7 @@ What you need to know about ***Aero Archives!***
 * And *Much More*
   
 ## Links
-Websites.md
+https://github.com/AcidCat44/Aero-Archive/blob/main/Websites.md#sub-section-websites
 
 ## Disclaimers
 I know Frutiger Aero Archive exists but this is going to be everything I can find!
