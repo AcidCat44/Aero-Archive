@@ -1,0 +1,159 @@
+/* =========================================================
+   WINDOWS VISTA / AERO DEFAULT CONTROL STYLES
+   ========================================================= */
+
+/* --- GLOSSY DEFAULT BUTTON --- */
+button, 
+.aero-btn, 
+input[type="button"], 
+input[type="submit"] {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    color: #1e395b;
+    padding: 4px 14px;
+    min-height: 23px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    
+    /* Vista Blue Glossy Gradient */
+    background: linear-gradient(
+        180deg, 
+        #ffffff 0%, 
+        #eaf3fb 48%, 
+        #cbe0f4 50%, 
+        #e2f0fb 100%
+    );
+    border: 1px solid #7092be;
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: all 0.1s ease;
+}
+
+/* Button Hover State */
+button:hover, 
+.aero-btn:hover, 
+input[type="button"]:hover, 
+input[type="submit"]:hover {
+    color: #002244;
+    background: linear-gradient(
+        180deg, 
+        #ffffff 0%, 
+        #f0f7fd 48%, 
+        #d8ecff 50%, 0
+        #eaf5ff 100%
+    );
+    border-color: #3c7fb1;
+    box-shadow: 
+        inset 0 0 4px rgba(255, 255, 255, 1),
+        0 0 6px rgba(50, 150, 250, 0.5);
+}
+
+/* Button Active / Pressed State */
+button:active, 
+.aero-btn:active, 
+input[type="button"]:active, 
+input[type="submit"]:active {
+    background: linear-gradient(
+        180deg, 
+        #abc7e8 0%, 
+        #82a5ce 48%, 
+        #658dbb 50%, 
+        #96b8df 100%
+    );
+    border-color: #2c5986;
+    box-shadow: inset 0 1px 3px rgba(0, 30, 60, 0.4);
+    color: #ffffff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Primary / Focused Glow Ring */
+button:focus,
+.aero-btn:focus {
+    border-color: #3c7fb1;
+    box-shadow: 
+        inset 0 0 2px rgba(255, 255, 255, 0.8),
+        0 0 5px rgba(0, 160, 255, 0.7);
+}
+
+
+/* --- TEXT INPUT FIELDS --- */
+input[type="text"], 
+input[type="password"], 
+textarea {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    color: #1a2b3c;
+    padding: 3px 6px;
+    background: #ffffff;
+    border: 1px solid #7a9ea7;
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus {
+    border-color: #3c7fb1;
+    box-shadow: 
+        inset 1px 1px 2px rgba(0, 0, 0, 0.1),
+        0 0 4px rgba(0, 150, 255, 0.6);
+}
+
+
+/* --- DROPDOWN SELECT --- */
+select {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    color: #1c385c;
+    padding: 3px 6px;
+    border-radius: 2px;
+    border: 1px solid #7092be;
+    background: linear-gradient(180deg, #ffffff 0%, #e8f2fc 100%);
+    box-shadow: inset 0 1px 0 #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #3c7fb1;
+    box-shadow: 0 0 5px rgba(50, 150, 250, 0.4);
+}
+
+
+/* --- AERO CUSTOM SCROLLBARS --- */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-left: 1px solid #d9d9d9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        90deg, 
+        #ffffff 0%, 
+        #dbe6f3 30%, 
+        #b0c8e4 70%, 
+        #e2edfa 100%
+    );
+    border: 1px solid #7092be;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+        90deg, 
+        #ffffff 0%, 
+        #e3effd 30%, 
+        #9bc1ec 70%, 
+        #ebf4ff 100%
+    );
+    border-color: #3c7fb1;
+}
